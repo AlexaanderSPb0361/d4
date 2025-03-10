@@ -55,6 +55,7 @@ public class CustomerTest extends AbstractTest{
     void addCustomer_whenValid_shouldSave() {
         //given
         CustomersEntity entity = new CustomersEntity();
+        //У Вас в классе CustomersEntity нет setter, нода добавить их
         entity.setApartment("100");
         entity.setDistrict("Южный");
         entity.setFirstName("Федор");
